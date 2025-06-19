@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: defualt
 title: Samuel Nartey | Cloud Solutions Architect
 excerpt: "AWS-Certified | Terraform | Kubernetes | Building Cost-Optimized Cloud Infrastructure"
 header:
