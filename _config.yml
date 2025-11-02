@@ -1,4 +1,32 @@
 title: Samuel Nartey Portfolio
+email: your.email@example.com # Replace with your email
+description: >- 
+  Technology professional specializing in [Your Main Area, e.g., Cloud Computing 
+  and Data Analytics] with a proven track record of successful projects 
+  and verifiable certifications.
+baseurl: ""
+url: "https://samuel-nartey.github.io"
+
+# --- Minima Social Links (UPDATE THESE!) ---
+github_username: samuel-nartey
+linkedin_username: YOUR_LINKEDIN_USERNAME 
+medium_username: YOUR_MEDIUM_USERNAME
+
+# Custom links for non-default icons/placements
+social_media:
+  medium_url: https://medium.com/@YOUR_MEDIUM_USERNAME
+  youtube_url: https://www.youtube.com/@YOUR_CHANNEL_NAME # Replace with your YouTube URL
+
+# --- Minima Theme Settings ---
+minima:
+  # This creates your navigation bar links
+  header_pages:
+    - index.md
+    - about.md
+    - projects.md 
+    - certificates.md
+
+# --- Standard Jekyll Settings ---
 theme: minima
 
 plugins:

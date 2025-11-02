@@ -1,48 +1,46 @@
 ---
-layout: default
+layout: page
 title: About Me
+permalink: /about/
 ---
 
-## About Me
+# 🚀 Samuel Nartey: Cloud & DevOps Engineer
 
-I’m a Cloud & Solutions Architect with hands-on experience designing scalable, secure, and cost-optimized cloud infrastructures on AWS. My core strengths include Infrastructure as Code (Terraform), CI/CD automation, containerized deployments using Docker and Kubernetes, and cloud-native architecture patterns.
+I am a highly motivated **Cloud & Solutions Architect** specializing in secure, cost-optimized, and scalable infrastructure on AWS and OCI. I leverage a **DevOps mindset** and **Infrastructure as Code (IaC)** to automate deployments and accelerate the software delivery lifecycle.
 
-I specialize in building real-world solutions that align with business goals — from multi-tier VPC architectures to microservices on ECS Fargate. My approach emphasizes automation, reusability, and performance, making me a strong fit for globally distributed teams seeking cloud talent with a DevOps mindset.
+My approach is focused on delivering measurable business impact:
 
-### 🔧 Technical Skills
-
-- **Cloud Platforms**: AWS (EC2, S3, RDS, VPC, IAM, Lambda, CloudFormation)
-- **Infrastructure as Code**: Terraform, CloudFormation
-- **Containerization & Orchestration**: Docker, Kubernetes, Amazon ECS/EKS
-- **DevOps & CI/CD**: CodePipeline, CodeBuild, GitHub Actions, Jenkins
-- **Monitoring & Cost Optimization**: CloudWatch, AWS Budgets, Trusted Advisor
-- **Version Control**: Git, GitHub
-
-### 📜 Certifications
-
-- ✅ AWS Certified Solutions Architect – Associate *(in progress or completed)*  
-- ✅ HashiCorp Certified: Terraform Associate  
-- *(Include any relevant training or courses, e.g., "AWS Cloud Practitioner – Completed via freeCodeCamp")*
-
-### 🌍 What I’m Looking For
-
-I’m seeking **entry-level or junior cloud engineering / solutions architect roles** where I can contribute to production-grade cloud infrastructure, collaborate across teams, and keep growing in modern DevOps and cloud-native architecture.
-
-I'm open to **remote-first**, **international**, and **junior-level opportunities** — and I bring not just technical skills, but a builder’s mindset, strong documentation practices, and a bias for shipping clean, secure solutions.
+* **Automation:** Proven ability to build fully automated CI/CD pipelines (CodePipeline, GitHub Actions), reducing deployment friction and improving release velocity.
+* **Cost Optimization:** Experience with serverless architectures (ECS Fargate) and resource optimization to drive significant cloud cost savings.
+* **Architecture:** Skilled in designing and implementing secure multi-tier VPC architectures and cloud-native microservices.
 
 ---
 
-## ✅ Final Notes:
+### 🔧 Technical Stack & Expertise
 
-- This version is **ATS-optimized** (keywords like “cloud-native,” “Terraform,” “Docker,” “CI/CD,” etc.)
-- It **reads naturally** for humans (recruiters, hiring managers)
-- It shows **business value**, **technical detail**, and **growth mindset**
+| Area | Tools & Platforms |
+| :--- | :--- |
+| **Cloud Platforms** | AWS (EC2, S3, RDS, VPC, IAM, Lambda, CloudFormation), Oracle Cloud Infrastructure (OCI) |
+| **IaC & Automation** | **Terraform**, CloudFormation, Jenkins, Bash Scripting |
+| **Containerization** | **Docker**, Kubernetes, Amazon ECS/EKS |
+| **DevOps & CI/CD** | AWS CodePipeline, AWS CodeBuild, GitHub Actions |
+| **Monitoring** | CloudWatch, AWS Budgets, Trusted Advisor |
 
 ---
 
-Would you like me to:
-- Customize this further with your actual cert dates or tools you've used?
-- Tailor this for a specific type of job (e.g., DevOps engineer, Platform engineer)?
-- Translate this into a shorter version for your **LinkedIn About** section?
+### 🎓 Certifications
 
-Let me know how you’d like to shape your brand next — you’re on the right track!
+My expertise is formally validated by industry credentials across multi-cloud environments:
+
+* **AWS Certified Solutions Architect – Associate**
+* **Oracle Cloud Infrastructure DevOps Professional**
+* **AWS Certified Cloud Practitioner**
+* **Oracle Cloud Infrastructure Foundations Associate**
+
+---
+
+### 🎯 Career Goals
+
+I am actively seeking **entry-level or junior Cloud Engineering / Solutions Architect roles** where I can apply my skills to production-grade cloud infrastructure. I thrive in collaborative, remote-first, and international teams dedicated to building resilient, modern, and well-documented cloud solutions.
+
+---
