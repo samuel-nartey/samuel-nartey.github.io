@@ -2,22 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/custom.css">
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
   </head>
   <body>
-    <header class="navbar">
-      <nav>
-        <a href="/">Home</a>
-        <a href="/about.html">About</a>
-        <a href="/projects.html">Projects</a>
-        <a href="/case-studies.html">Case Studies</a>
-        <a href="/contact.html">Contact</a>
+    
+    <header class="site-header" role="banner">
+      <nav class="navbar">
+        {% for page in site.pages %}
+          {% if page.title and page.layout == "page" %}
+            <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+          {% endif %}
+        {% endfor %}
       </nav>
-    </header>
+      </header>
 
-    <main class="content">
+    <main class="page-content">
       {{ content }}
     </main>
-  </body>
+    
+    </body>
 </html>
