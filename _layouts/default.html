@@ -10,12 +10,12 @@
     <header class="site-header" role="banner">
       <nav class="navbar">
         {% for page in site.pages %}
-          {% if page.title and page.layout == "page" %}
+          {% if site.minima.header_pages contains page.path and page.title %}
             <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
       </nav>
-      </header>
+    </header>
 
     <main class="page-content">
       {{ content }}
